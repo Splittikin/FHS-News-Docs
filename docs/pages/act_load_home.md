@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Loading the home feed
-permalink: /s2a/loading_the_home_feed
+permalink: /act/loading_the_home_feed
 ---
 
 The home feed can be loaded by requesting the following URL:
