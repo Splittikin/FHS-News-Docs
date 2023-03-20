@@ -5,6 +5,8 @@ permalink: /obj/article
 ---
 Article objects are cards in the home feed that include a subject, title, image, subtitle, and content.
 
+(TODO Screenshot of an Article card)
+
 Article objects are structured like the following:
 ```json
 {

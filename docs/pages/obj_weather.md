@@ -3,7 +3,11 @@ layout: default
 title: WeatherData object
 permalink: /obj/weather_data
 ---
-This object displays the weather from Weatherbit. Since the Weatherbit API limits us on how many calls we can make to it, it is fetched by the server every 30 minutes instead of taking up one of our calls every time the app is opened by someone. It is structured like the following:
+This object displays the weather from Weatherbit. Since the Weatherbit API limits us on how many calls we can make to it, it is fetched by the server every 30 minutes instead of taking up one of our calls every time the app is opened by someone. 
+
+(TODO Screenshot of a Weather card)
+
+The Weather Data object is structured like the following:
 ```json
 {
   "itemType": "WeatherData",

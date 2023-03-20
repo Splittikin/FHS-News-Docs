@@ -5,6 +5,8 @@ permalink: /obj/alert
 ---
 Alerts are small text windows, shown in a specific color with optionally some buttons. Their main purpose is to indicate to students whether today is a RED or a SILVER day, however, the actual text and button contents are provided by the object itself. This makes it possible for the card to also display other types of days when needed, such as a SEVEN PERIOD day or an EMPLOYABILITY day, or even display that today is  a FINALS day during things like finals week or during other events that affect the schedule.
 
+(TODO Screenshot of an Alert card)
+
 In addition to indicating to students what type of schedule is being used today, they can also be used to display a short message at the top of the feed to all students (hence the name 'Alert'.)
 
 Alert cards are structured like the following:

@@ -3,7 +3,11 @@ layout: default
 title: Club objects
 permalink: /obj/club
 ---
-Clubs objects are information cards that showcase a club, as well as talk about what happens in it. They are virtually identical to Article objects, only without a few unneeded attributes. They are structured like the following:
+Clubs objects are information cards that showcase a club, as well as talk about what happens in it. They are virtually identical to Article objects, only without a few unneeded attributes. 
+
+(TODO Screenshot of a Club card)
+
+Club objects are structured like the following:
 ```json
 {
   "itemType": "Club",
