@@ -6,7 +6,7 @@ permalink: /act/loading_the_home_feed
 
 The home feed can be loaded by requesting the following URL:
 ```
-https://76.139.70.221:3000/api/home?position=0&quantity=5
+{{ site.api_url }}/home?position=0&quantity=5
 ```
 The server will return a list of JSON objects, each one representing a card in the home feed. Each object begins with the attribute `itemType`, which indicates what type of card that this object should be. Here's an example:
 ```json
