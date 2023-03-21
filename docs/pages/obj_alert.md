@@ -3,11 +3,13 @@ layout: default
 title: Alert object
 permalink: /obj/alert
 ---
-Alerts are small text windows, shown in a specific color with optionally some buttons. Their main purpose is to indicate to students whether today is a RED or a SILVER day, however, the actual text and button contents are provided by the object itself. This makes it possible for the card to also display other types of days when needed, such as a SEVEN PERIOD day or an EMPLOYABILITY day, or even display that today is  a FINALS day during things like finals week or during other events that affect the schedule.
+- [Back to index]({{ site.baseurl }}/)
+
+Alerts are small text cards shown in a specific color, with optionally some buttons. Their main purpose is to indicate to students whether today is a RED or a SILVER day. The actual text and button contents are provided by the object itself, making it possible for the card to also display other types of days when needed, such as a SEVEN PERIOD day or an EMPLOYABILITY day. If needed, specific types of schedules on certain days such as FINALS day or other school-occupying events can be shown.
 
 (TODO Screenshot of an Alert card)
 
-In addition to indicating to students what type of schedule is being used today, they can also be used to display a short message at the top of the feed to all students (hence the name 'Alert'.)
+In addition to indicating to students what type of schedule is being used today, they can also be used to display a short message at the top of the feed without any buttons to all students (hence the name 'Alert'.)
 
 Alert cards are structured like the following:
 ```json
@@ -45,3 +47,6 @@ The links parameter contains another JSON object within it, that specifies butto
 Each key ("Clever", "Enriching Students") indicates the name that should be displayed on the button. And the values (the URLs) indicate the link that should be opened when the button is clicked on. For example, this Alert would show two buttons on it. One would read "Clever", and the other would read "Enriching Students". When the Clever button is clicked, the Clever URL will open. When the Enriching Students button is clicked, the Enriching Students URL should open.
 
 Any number of Alerts can appear at a time, whether that be 1 Alert, 10 Alerts, or none at all.
+
+---
+- [Back to index]({{ site.baseurl }}/)

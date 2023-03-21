@@ -3,9 +3,15 @@ layout: default
 title: Template object page
 permalink: /tmp/obj
 ---
+- [Back to index]({{ site.baseurl }}/)
+
+Here is the AHH! object. It makes you go AHH!
 
 ```json
-
+{
+  "itemType": "AHH!",
+  "ahhSoundEffect": "AHHHHH!!!!"
+}
 ```
 
 | Field    | Type   | Example | Requirement | Description             |
@@ -16,3 +22,7 @@ permalink: /tmp/obj
 |          |        |         |             |                         |
 |          |        |         |             |                         |
 |          |        |         |             |                         |
+
+
+---
+- [Back to index]({{ site.baseurl }}/)
