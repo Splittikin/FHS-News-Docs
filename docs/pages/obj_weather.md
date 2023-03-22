@@ -19,6 +19,7 @@ The Weather Data object is structured like the following:
   "weather_description": "Broken clouds"
 }
 ```
+**_(Weather updates by the server have yet to be implemented. For now, this same weather data will always be returned.)_**
 
 | Field               | Type    | Example       | Requirement | Description                                                                                                                   |
 |---------------------|---------|---------------|-------------|-------------------------------------------------------------------------------------------------------------------------------|

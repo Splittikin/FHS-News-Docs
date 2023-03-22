@@ -12,9 +12,9 @@ Welcome to the documentation for the FHS-News API! Here you can find information
 
 ### Actions
   - [Loading the home feed]({{ site.baseurl }}/act/loading_the_home_feed)
-  - Loading the clubs feed (API Implementation WIP)
-  - Loading a specific article (Documentation WIP)
-  - Loading a specific club (Documentation WIP)
+  - [Loading the clubs feed]({{ site.baseurl }}/act/loading_the_clubs_feed)
+  - [Loading a specific article]({{ site.baseurl }}/act/loading_an_article)
+  - [Loading a specific club]({{ site.baseurl }}/act/loading_a_club)
   - Searching for articles or clubs (API Implementation WIP)
   - Searching for articles by date (Documentation WIP)
   - Configuring push notifications (API Implementation WIP)
