@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: modified
 title: Template object page
 permalink: /tmp/obj
 ---
-- [Back to index]({{ site.baseurl }}/)
-
 Here is the AHH! object. It makes you go AHH!
 
 ```json
@@ -22,7 +20,3 @@ Here is the AHH! object. It makes you go AHH!
 |          |        |         |             |                         |
 |          |        |         |             |                         |
 |          |        |         |             |                         |
-
-
----
-- [Back to index]({{ site.baseurl }}/)

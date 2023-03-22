@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: modified
 title: Loading the clubs feed
 permalink: /act/loading_the_clubs_feed
 ---
-- [Back to index]({{ site.baseurl }}/)
-
 The clubs feed can be loaded by requesting the following URL:
 ```
 {{ site.api_url }}/feedClubs?position=0&quantity=5
@@ -61,7 +59,7 @@ Like when requesting the [home feed]({{ site.baseurl }}/act/loading_the_home_fee
 ```
 The server may return any number of clubs in any order. The order of clubs will periodically be randomized, so that one club doesn't get prioritized over another.
 
-The two parameters at the end, `position`, and `quantity`, tell the server what place you want to load the clubs from and how many of them you want to load. **If you do not specify `position` and `quantity` in your request, they will default to 0 and 3 respectively.**
+The two parameters at the end, `position`, and `quantity`, tell the server what place you want to load the clubs from and how many of them you want to load.
 
----
-- [Back to index]({{ site.baseurl }}/)
+{: .note}
+If you do not specify `position` and `quantity` in your request, they will default to 0 and 5 respectively.

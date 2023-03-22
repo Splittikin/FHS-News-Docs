@@ -1,0 +1,20 @@
+---
+---
+
+@import "{{ site.theme }}";
+section #title .credits.right {
+  text-align: end;
+}
+section #title .credits.left {
+  text-align: start;
+}
+section #title {
+  margin: 0 0 36px 0;
+}
+.note {
+  padding: 20px 20px 24px 24px;
+  background-image: linear-gradient(to bottom, #7e6d42 0%,#5c4e35 100%);
+}
+.warning {
+  background-image: linear-gradient(to bottom, #9e2812 0%,#6f0d0d 100%);
+}

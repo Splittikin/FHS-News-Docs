@@ -1,7 +1,11 @@
 ---
-layout: default
+layout: modified
+title: FHS-News API Docs
 ---
-Welcome to the documentation for the FHS-News API! Here you can find information about how to interact with the FHS-News server and how to have your app make sense of what it sends back. The server is still super WIP so **expect for things to change without warning and at any time.** Please let me know if you have any questions!
+Welcome to the documentation for the FHS-News API! Here you can find information about how to interact with the FHS-News server and how to have your app make sense of what it sends back. Please let me know if you have any questions!
+
+{: .note}
+The FHS-News API is still super WIP so **things may change at any time.** If your app's interaction with the API suddenly starts breaking, check here first to see if things are different!
 
 ### Objects
   - [Articles]({{ site.baseurl }}/obj/article)

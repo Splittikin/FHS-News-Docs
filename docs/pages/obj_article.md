@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: modified
 title: Article objects
 permalink: /obj/article
 ---
-- [Back to index]({{ site.baseurl }}/)
-
 Article objects are cards in the home feed that include a subject, title, image, subtitle, and content.
 
 (TODO Screenshot of an Article card)
@@ -43,6 +41,3 @@ Article objects are structured like the following:
 | text             | String          | Enjoy the Sounds of the Season as the FHS Bands play selections... | Required                                                                      | The contents of the article.                                                                                                                                                                                                                                                                                                                                                             |
 
 [timestamp-converter]: https://www.unixtimestamp.com/
-
----
-- [Back to index]({{ site.baseurl }}/)

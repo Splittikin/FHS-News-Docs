@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: modified
 title: Club objects
 permalink: /obj/club
 ---
-- [Back to index]({{ site.baseurl }}/)
-
 Clubs objects are information cards that showcase a club, as well as talk about what happens in it. They are virtually identical to Article objects, only without a few unneeded attributes. 
 
 (TODO Screenshot of a Club card)
@@ -31,6 +29,3 @@ Club objects are structured like the following:
 | clubName      | String          | 2000s FUN                                                                 | Required                                                                      | Name of the club.                                                               |
 | clubSubtitle  | String          | Sponsor(s): Erin Knapp                                                    | Optional - May be empty ("") or not defined at all                            | One-line subtitle for the club. Ellipses after one line.                        |
 | clubText      | String          | This is a throwback to childhood - with little-to-no technology. We're... | Required                                                                      | Text contents of the club card.                                                 |
-
----
-- [Back to index]({{ site.baseurl }}/)

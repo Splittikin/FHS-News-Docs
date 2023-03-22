@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: modified
 title: Loading the home feed
 permalink: /act/loading_the_home_feed
 ---
-- [Back to index]({{ site.baseurl }}/)
-
 The home feed can be loaded by requesting the following URL:
 ```
 {{ site.api_url }}/home?position=0&quantity=5
@@ -67,7 +65,7 @@ The server will return a list of JSON objects, each one representing a card in t
 ```
 The server may return any number of objects. They should be displayed in order.
 
-The two parameters at the end, `position`, and `quantity`, tell the server what place you want to load the articles from and how many of them you want to load, including the extra cards (Weather, clock, alerts, everything not an article.) **If you do not specify `position` and `quantity` in your request, they will default to 0 and 3 respectively.**
+The two parameters at the end, `position`, and `quantity`, tell the server what place you want to load the articles from and how many of them you want to load, including the extra cards (Weather, clock, alerts, everything not an article.) 
 
----
-- [Back to index]({{ site.baseurl }}/)
+{: .note}
+If you do not specify `position` and `quantity` in your request, they will default to 0 and 5 respectively.
