@@ -5,7 +5,7 @@ permalink: /obj/weather_data
 ---
 This object displays the weather from Weatherbit. Since the Weatherbit API limits us on how many calls we can make to it, it is fetched by the server every 30 minutes instead of taking up one of our calls every time the app is opened by someone. 
 
-(TODO Screenshot of a Weather card)
+![The weather card in the home feed]({{ site.baseurl }}/images/weather_card.png)
 
 The Weather Data object is structured like the following:
 ```json
