@@ -19,6 +19,7 @@ The FHS-News API is still super WIP so **things may change at any time.** If you
   - [Loading the clubs feed]({{ site.baseurl }}/act/loading_the_clubs_feed)
   - [Loading a specific article]({{ site.baseurl }}/act/loading_an_article)
   - [Loading a specific club]({{ site.baseurl }}/act/loading_a_club)
+  - [Loading the current weather data]({{ site.baseurl }}/act/loading_the_weather_data)
   - Searching for articles or clubs (API Implementation WIP)
   - Searching for articles by date (Documentation WIP)
   - Configuring push notifications (API Implementation WIP)

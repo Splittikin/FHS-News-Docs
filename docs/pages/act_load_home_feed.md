@@ -7,6 +7,10 @@ The home feed can be loaded by requesting the following URL:
 ```
 {{ site.api_url }}/home?position=0&quantity=5
 ```
+
+{: .note}
+The current list of articles currently consists of placeholders, many of which are copies of the same article, so you may see the same article several times for the time being. 
+
 The server will return a list of JSON objects, each one representing a card in the home feed. Each object begins with the attribute `itemType`, which indicates what type of card that this object should be. Here's an example:
 ```json
 [
