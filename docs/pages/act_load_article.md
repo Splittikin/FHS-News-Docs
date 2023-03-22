@@ -7,18 +7,18 @@ permalink: /act/loading_an_article
 
 A specific article can be loaded by requesting the following URL. The ID parameter should be set to the ID of the article you want.
 ```
-http://76.139.70.221:3000/api/article?id=<id of article>
+{{ site.api_url }}/article?id=<id of article>
 ```
 The server will return the article as a single JSON object. Here's an example:
 ```json
 {
   "itemType": "Article",
   "articleId": 1,
-  "articleThumbnail": "http://76.139.70.221:3000/files/attachments/articles/1/image.png",
+  "articleThumbnail": "{{ site.cdn_url }}/articles/1/image.png",
   "postedTime": "1671469200000",
   "timeUntil": "0",
   "topperText": "Fundraiser",
-  "topperIcon": "http://76.139.70.221:3000/files/attachments/articles/1/bruh.png",
+  "topperIcon": "{{ site.cdn_url }}/articles/1/bruh.png",
   "author": "",
   "tags": [],
   "headline": "Holiday Gift Wrapping",

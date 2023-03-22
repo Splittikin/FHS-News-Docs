@@ -14,7 +14,7 @@ Club objects are structured like the following:
 {
   "itemType": "Club",
   "clubId": 2,
-  "clubThumbnail": "http://76.139.70.221:3000/files/attachments/clubs/2/ahhhhhhhhhhhhhhh.jpg",
+  "clubThumbnail": "{{ site.cdn_url }}/clubs/2/ahhhhhhhhhhhhhhh.jpg",
   "tags": ["2000s", "throwback", "crafts"],
   "clubName": "2000s FUN",
   "clubSubtitle": "Sponsor(s): Erin Knapp",
@@ -26,7 +26,7 @@ Club objects are structured like the following:
 |---------------|-----------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | itemType      | String          | Club                                                                      | Required                                                                      | The type of the object.                                                         |
 | clubId        | Integer         | 2                                                                         | Required                                                                      | The ID of the club. No two clubs share the same ID.                             |
-| clubThumbnail | String          | http://76.139.70.221:3000/files/attachments/clubs/2/ahhhhhhhhhhhhhhh.jpg  | Required - If not defined by the author, the server will insert a placeholder | A picture for the club. May be a logo, or a picture of people in the club, etc. |
+| clubThumbnail | String          | {{ site.cdn_url }}/clubs/2/ahhhhhhhhhhhhhhh.jpg                           | Required - If not defined by the author, the server will insert a placeholder | A picture for the club. May be a logo, or a picture of people in the club, etc. |
 | tags          | List of strings | ["2000s", "throwback", "crafts"]                                          | Optional - May be empty ([]) or not defined at all                            | List of tags for the club, used when searching or filtering to specific tags.   |
 | clubName      | String          | 2000s FUN                                                                 | Required                                                                      | Name of the club.                                                               |
 | clubSubtitle  | String          | Sponsor(s): Erin Knapp                                                    | Optional - May be empty ("") or not defined at all                            | One-line subtitle for the club. Ellipses after one line.                        |

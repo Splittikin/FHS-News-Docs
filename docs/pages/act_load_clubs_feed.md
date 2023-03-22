@@ -13,7 +13,7 @@ Like when requesting the [home feed]({{ site.baseurl }}/act/loading_the_home_fee
 ```json
 [
   {
-    "clubThumbnail": "http://76.139.70.221:3000/files/attachments/clubs/1/ahhhhhhhhhhhhhhh.jpg",
+    "clubThumbnail": "{{ site.cdn_url }}/clubs/1/ahhhhhhhhhhhhhhh.jpg",
     "tags": [],
     "clubName": "3D PRINTING CLUB",
     "clubSubtitle": "Sponsor(s): Renee Isom",
@@ -22,7 +22,7 @@ Like when requesting the [home feed]({{ site.baseurl }}/act/loading_the_home_fee
     "itemType": "Club"
   },
   {
-    "clubThumbnail": "http://76.139.70.221:3000/files/attachments/clubs/2/ahhhhhhhhhhhhhhh.jpg",
+    "clubThumbnail": "{{ site.cdn_url }}/clubs/2/ahhhhhhhhhhhhhhh.jpg",
     "tags": [],
     "clubName": "2000s FUN",
     "clubSubtitle": "Sponsor(s): Erin Knapp",
@@ -31,7 +31,7 @@ Like when requesting the [home feed]({{ site.baseurl }}/act/loading_the_home_fee
     "itemType": "Club"
   },
   {
-    "clubThumbnail": "http://76.139.70.221:3000/files/attachments/clubs/3/ahhhhhhhhhhhhhhh.jpg",
+    "clubThumbnail": "{{ site.cdn_url }}/clubs/3/ahhhhhhhhhhhhhhh.jpg",
     "tags": [],
     "clubName": "ACADEMIC AMBUSH TEAM",
     "clubSubtitle": "Sponsor(s): Alex Smith, Katie Hagerty",
@@ -40,7 +40,7 @@ Like when requesting the [home feed]({{ site.baseurl }}/act/loading_the_home_fee
     "itemType": "Club"
   },
   {
-    "clubThumbnail": "http://76.139.70.221:3000/files/attachments/clubs/4/ahhhhhhhhhhhhhhh.jpg",
+    "clubThumbnail": "{{ site.cdn_url }}/clubs/4/ahhhhhhhhhhhhhhh.jpg",
     "tags": [],
     "clubName": "ANIMATION CLUB",
     "clubSubtitle": "Sponsor(s): Glenn Seland",
@@ -49,7 +49,7 @@ Like when requesting the [home feed]({{ site.baseurl }}/act/loading_the_home_fee
     "itemType": "Club"
   },
   {
-    "clubThumbnail": "http://76.139.70.221:3000/files/attachments/clubs/5/ahhhhhhhhhhhhhhh.jpg",
+    "clubThumbnail": "{{ site.cdn_url }}/clubs/5/ahhhhhhhhhhhhhhh.jpg",
     "tags": [],
     "clubName": "ARAB ASSOCIATION",
     "clubSubtitle": "Sponsor(s): Chris Edwards",
