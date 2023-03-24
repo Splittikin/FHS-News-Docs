@@ -12,7 +12,7 @@ The FHS-News API is still super WIP so **things may change at any time.** If you
   - [Clubs]({{ site.baseurl }}/obj/club)
   - [Alerts]({{ site.baseurl }}/obj/alert)
   - [Weather Data]({{ site.baseurl }}/obj/weather_data)
-  - Lunch Menu Data (API Implementation WIP)
+  - [Lunch Menu Data]({{ site.baseurl }}/obj/lunch)
 
 ### Actions
   - [Loading the home feed]({{ site.baseurl }}/act/loading_the_home_feed)
@@ -20,6 +20,7 @@ The FHS-News API is still super WIP so **things may change at any time.** If you
   - [Loading a specific article]({{ site.baseurl }}/act/loading_an_article)
   - [Loading a specific club]({{ site.baseurl }}/act/loading_a_club)
   - [Loading the current weather data]({{ site.baseurl }}/act/loading_the_weather_data)
+  - [Loading the current lunch menu]({{ site.baseurl }}/act/loading_the_lunch_menu)
   - Searching for articles or clubs (API Implementation WIP)
   - Searching for articles by date (Documentation WIP)
   - Configuring push notifications (API Implementation WIP)
