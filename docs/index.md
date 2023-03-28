@@ -13,6 +13,7 @@ The FHS-News API is still super WIP so **things may change at any time.** If you
   - [Alerts]({{ site.baseurl }}/obj/alert)
   - [Weather Data]({{ site.baseurl }}/obj/weather_data)
   - [Lunch Menu Data]({{ site.baseurl }}/obj/lunch)
+  - Error (API Implementation WIP)
 
 ### Actions
   - [Loading the home feed]({{ site.baseurl }}/act/loading_the_home_feed)

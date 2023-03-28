@@ -59,7 +59,7 @@ Like when requesting the [home feed]({{ site.baseurl }}/act/loading_the_home_fee
 ```
 The server may return any number of clubs in any order. The order of clubs will periodically be randomized, so that one club doesn't get prioritized over another.
 
-The two parameters at the end, `position`, and `quantity`, tell the server what place you want to load the clubs from and how many of them you want to load.
+The two parameters at the end, `position`, and `quantity`, tell the server what place you want to load the clubs from and how many of them you want to load. If you do not specify `position` and `quantity` in your request, they will default to 0 and 5 respectively.
 
-{: .note}
-If you do not specify `position` and `quantity` in your request, they will default to 0 and 5 respectively.
+{. :note}
+This type of command should only return `Club` type items... But in case something goes wrong, your app should be prepared to handle `Error` items in this feed too!
