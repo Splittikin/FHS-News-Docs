@@ -27,8 +27,8 @@ baseurl: "/FHS-News-Docs" # the subpath of your site, e.g. /blog
 twitter_username: jekyllrb
 github_username:  jekyll
 
-api_url: http://76.139.70.221:3000/api
-cdn_url: http://76.139.70.221:3000/files/attachments
+api_url: https://api.fhs-news.org/api
+cdn_url: https://api.fhs-news.org/files/attachments
 
 # Build settings
 remote_theme: pages-themes/midnight@v0.2.0
